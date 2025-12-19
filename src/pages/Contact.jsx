@@ -119,7 +119,8 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-fire-dark">Phone</h3>
                 </div>
                 <a
-                  href="tel:+91-22-XXXX-XXXX"
+                  href="tel:+91-8888368101"
+                  
                   className="text-gray-700 hover:text-fire-red transition"
                 >
                   {companyDetails.phone}
@@ -303,7 +304,7 @@ const Contact = () => {
 
           <div className="rounded-lg overflow-hidden card-shadow h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8207253826466!2d72.82596!3d19.05865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c7e7c7c7c7%3A0x7c7c7c7c7c7c7c7c!2sIndustrial%20Area%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://www.google.com/maps?q=18.4489372,73.846409&z=17&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -324,7 +325,7 @@ const Contact = () => {
             {[
               {
                 q: 'What is the response time for emergency calls?',
-                a: 'We respond to emergency calls within 15-30 minutes in the city area. Call our emergency hotline at +91-22-XXXX-XXXX.',
+                a: 'We respond to emergency calls within 15-30 minutes in the city area. Call our emergency hotline at +91-8888368101.',
               },
               {
                 q: 'Do you provide fire extinguisher rental services?',

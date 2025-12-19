@@ -203,11 +203,11 @@ export const whyChooseUs = [
 
 // Company details
 export const companyDetails = {
-  name: 'RD Fires',
+  name: 'R.D.Fire Engineers',
   description: 'Your trusted partner in fire safety solutions',
-  address: '123 Industrial Area, Fire Safety Complex, City - 400001',
-  phone: '+91-22-XXXX-XXXX',
-  email: 'info@rdfires.com',
+  address: 'Flat No.204, D Wing, Shree Vitthal Heritage, Dattanagar, Ambegaon(BK), Pune, Maharashtra - 411046',
+  phone: '+91-8888368101', 
+  email: 'rdfirepune@yahoo.com',
   website: 'www.rdfires.com',
   foundedYear: 2004,
   employees: '50+',

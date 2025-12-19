@@ -30,7 +30,7 @@ const Header = () => {
             <div className="bg-fire-red p-2 rounded">
               <span className="text-white">🔥</span>
             </div>
-            <span className="hidden sm:inline">RD Fires</span>
+            <span className="hidden sm:inline">RD Fire Engineers</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,7 +48,7 @@ const Header = () => {
 
           {/* Contact Button - Desktop */}
           <a
-            href="tel:+91-22-XXXX-XXXX"
+            href="tel:+91-8888368101"
             className="hidden md:flex items-center gap-2 btn-secondary"
           >
             <FaPhone /> Call Us
@@ -77,7 +77,7 @@ const Header = () => {
               </Link>
             ))}
             <a
-              href="tel:+91-22-XXXX-XXXX"
+              href="tel:+91-8888368101"
               className="btn-secondary inline-block text-center"
             >
               <FaPhone className="inline mr-2" /> Call Us

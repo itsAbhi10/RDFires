@@ -110,7 +110,7 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-gray-700 pt-8 mb-8">
           {/* Social Media */}
-          <div className="flex justify-center gap-6 mb-8">
+          {/* <div className="flex justify-center gap-6 mb-8">
             <a
               href={companyDetails.socialMedia.facebook}
               target="_blank"
@@ -143,12 +143,12 @@ const Footer = () => {
             >
               <FaInstagram />
             </a>
-          </div>
+          </div> */}
 
           {/* Copyright */}
           <div className="text-center text-gray-500 text-sm">
             <p>
-              &copy; {new Date().getFullYear()} RD Fires. All rights reserved.
+              &copy; {new Date().getFullYear()} RD Fire Engineers. All rights reserved.
             </p>
             <p>Protecting lives through fire safety excellence</p>
           </div>

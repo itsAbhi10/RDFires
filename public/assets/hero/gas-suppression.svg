@@ -1,0 +1,99 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient (industrial) -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3142;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="techGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#1f2937;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  <ellipse cx="960" cy="540" rx="700" ry="600" fill="url(#techGlow)"/>
+  
+  <!-- Ceiling-mounted gas suppression system -->
+  <!-- Main pipe network -->
+  <line x1="200" y1="150" x2="1720" y2="150" stroke="#888888" stroke-width="12"/>
+  <line x1="960" y1="150" x2="960" y2="300" stroke="#888888" stroke-width="12"/>
+  <line x1="400" y1="150" x2="400" y2="280" stroke="#888888" stroke-width="12"/>
+  <line x1="1500" y1="150" x2="1500" y2="280" stroke="#888888" stroke-width="12"/>
+  
+  <!-- Nozzles/sprayers -->
+  <!-- Center -->
+  <g id="nozzle1">
+    <rect x="930" y="300" width="60" height="80" fill="#444" rx="5"/>
+    <rect x="945" y="375" width="30" height="40" fill="#FFD700"/>
+    <!-- Spray effect -->
+    <circle cx="960" cy="420" r="4" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="945" cy="435" r="3" fill="#87CEEB" opacity="0.5"/>
+    <circle cx="975" cy="432" r="3" fill="#87CEEB" opacity="0.5"/>
+  </g>
+  
+  <!-- Left nozzle -->
+  <g id="nozzle2">
+    <rect x="370" y="280" width="60" height="80" fill="#444" rx="5"/>
+    <rect x="385" y="355" width="30" height="40" fill="#FFD700"/>
+    <!-- Spray -->
+    <circle cx="400" cy="400" r="4" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="380" cy="418" r="3" fill="#87CEEB" opacity="0.5"/>
+  </g>
+  
+  <!-- Right nozzle -->
+  <g id="nozzle3">
+    <rect x="1470" y="280" width="60" height="80" fill="#444" rx="5"/>
+    <rect x="1485" y="355" width="30" height="40" fill="#FFD700"/>
+    <!-- Spray -->
+    <circle cx="1500" cy="400" r="4" fill="#87CEEB" opacity="0.6"/>
+    <circle cx="1520" cy="418" r="3" fill="#87CEEB" opacity="0.5"/>
+  </g>
+  
+  <!-- Control panel on wall -->
+  <rect x="1600" y="400" width="250" height="300" fill="#2d2d2d" stroke="#dc2626" stroke-width="3" rx="10"/>
+  <!-- Display screen -->
+  <rect x="1630" y="430" width="190" height="120" fill="#0a0a0a" stroke="#00ff00" stroke-width="2" rx="5"/>
+  <text x="1720" y="480" font-size="24" fill="#00ff00" text-anchor="middle" font-family="monospace">SYSTEM READY</text>
+  <text x="1720" y="510" font-size="16" fill="#00ff00" text-anchor="middle" font-family="monospace">ARMED</text>
+  <!-- Control buttons -->
+  <circle cx="1650" cy="580" r="15" fill="#dc2626"/>
+  <circle cx="1720" cy="580" r="15" fill="#FFD700"/>
+  <circle cx="1790" cy="580" r="15" fill="#00ff00"/>
+  <!-- Indicator lights -->
+  <circle cx="1680" cy="650" r="10" fill="#00ff00"/>
+  <circle cx="1760" cy="650" r="10" fill="#00ff00"/>
+  
+  <!-- Temperature sensor (wall mounted) -->
+  <rect x="150" y="500" width="80" height="120" fill="#444" stroke="#888" stroke-width="2" rx="5"/>
+  <circle cx="190" cy="530" r="15" fill="#dc2626"/>
+  <text x="190" y="600" font-size="18" fill="#FFF" text-anchor="middle" font-family="monospace">85°C</text>
+  
+  <!-- Gas tanks (background) -->
+  <g id="tanks" opacity="0.6">
+    <rect x="300" y="600" width="80" height="280" fill="#888" stroke="#555" stroke-width="2" rx="10"/>
+    <circle cx="340" cy="580" r="35" fill="#888" stroke="#555" stroke-width="2"/>
+    <rect x="1600" y="650" width="70" height="250" fill="#888" stroke="#555" stroke-width="2" rx="8"/>
+    <circle cx="1635" cy="630" r="30" fill="#888" stroke="#555" stroke-width="2"/>
+  </g>
+  
+  <!-- Pipe highlights -->
+  <line x1="200" y1="140" x2="1720" y2="140" stroke="#FFD700" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Safety signage -->
+  <rect x="80" y="200" width="150" height="100" fill="#FFD700" stroke="#dc2626" stroke-width="3" rx="5"/>
+  <text x="155" y="235" font-size="20" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial">GAS</text>
+  <text x="155" y="270" font-size="20" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial">SUPPRESSION</text>
+  
+  <!-- Ground/floor effect -->
+  <rect x="0" y="900" width="1920" height="180" fill="linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7))"/>
+  
+  <!-- Text overlay gradient -->
+  <defs>
+    <linearGradient id="overlayGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.25" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#overlayGradient)"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient (dark industrial) -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="fireGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Fire effect (background) -->
+  <ellipse cx="960" cy="800" rx="500" ry="400" fill="url(#fireGlow)"/>
+  
+  <!-- Silhouettes of firefighters -->
+  <!-- Firefighter 1 (left, aiming hose) -->
+  <g id="firefighter1">
+    <ellipse cx="300" cy="650" rx="40" ry="50" fill="#0a0a0a"/>
+    <rect x="280" y="730" width="40" height="120" fill="#0a0a0a"/>
+    <rect x="260" y="740" width="20" height="100" fill="#0a0a0a"/>
+    <rect x="320" y="750" width="20" height="90" fill="#0a0a0a"/>
+    <!-- Hose arm -->
+    <path d="M 320 680 Q 400 600 500 550" stroke="#dc2626" stroke-width="15" fill="none" opacity="0.7"/>
+  </g>
+  
+  <!-- Firefighter 2 (center-right, with axe) -->
+  <g id="firefighter2">
+    <ellipse cx="1200" cy="600" rx="45" ry="55" fill="#0a0a0a"/>
+    <rect x="1175" y="680" width="50" height="130" fill="#0a0a0a"/>
+    <rect x="1150" y="695" width="25" height="115" fill="#0a0a0a"/>
+    <rect x="1225" y="705" width="25" height="105" fill="#0a0a0a"/>
+    <!-- Axe -->
+    <rect x="1240" y="500" width="8" height="180" fill="#8B4513"/>
+    <polygon points="1232,495 1256,495 1244,475" fill="#FFD700"/>
+  </g>
+  
+  <!-- Firefighter 3 (right side) -->
+  <g id="firefighter3">
+    <ellipse cx="1600" cy="680" rx="35" ry="45" fill="#0a0a0a"/>
+    <rect x="1585" y="750" width="30" height="100" fill="#0a0a0a"/>
+    <rect x="1570" y="760" width="15" height="90" fill="#0a0a0a"/>
+    <rect x="1615" y="765" width="15" height="85" fill="#0a0a0a"/>
+  </g>
+  
+  <!-- Water spray effect -->
+  <g id="water-spray" opacity="0.6">
+    <circle cx="500" cy="500" r="3" fill="#4da6ff"/>
+    <circle cx="520" cy="480" r="2.5" fill="#4da6ff"/>
+    <circle cx="540" cy="460" r="3" fill="#4da6ff"/>
+    <circle cx="560" cy="440" r="2.5" fill="#4da6ff"/>
+    <circle cx="510" cy="520" r="2.5" fill="#4da6ff"/>
+    <circle cx="530" cy="510" r="3" fill="#4da6ff"/>
+  </g>
+  
+  <!-- Bright accent (simulating bright fire) -->
+  <rect x="800" y="200" width="320" height="400" fill="url(#fireGlow)" opacity="0.4"/>
+  
+  <!-- Text overlay gradient hint (this will be covered by the actual overlay) -->
+  <defs>
+    <linearGradient id="overlayHint" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#overlayHint)"/>
+</svg>
